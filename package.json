@@ -1,0 +1,22 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^2.9.1",
+    "jest-css-modules": "^1.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^15.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "NODE_ENV=test jest",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"}
+  }
+}
